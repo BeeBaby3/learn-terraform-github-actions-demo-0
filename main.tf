@@ -18,6 +18,13 @@ terraform {
       name = "demo-0125-github-actions"
     }
   }
+  cloud {
+    organization = "ACG-Terraform-Demo-0125"
+
+    workspaces {
+      name = "demo-0125-github-actions"
+    }
+  }
 }
 
 
